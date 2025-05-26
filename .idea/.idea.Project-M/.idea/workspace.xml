@@ -25,6 +25,10 @@
     &quot;accountId&quot;: &quot;b32a2a55-1f28-4957-870c-d7198d7cd907&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@79d3abb9adf1/Editor/Lighting/ProbeVolume/ProbeVolumesOptionsEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@79d3abb9adf1/Editor/Volume/VolumeComponentEditor.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
