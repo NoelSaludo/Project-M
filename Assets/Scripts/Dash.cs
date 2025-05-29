@@ -4,13 +4,12 @@ using UnityEngine.Serialization;
 
 public class Dash : MonoBehaviour
 {
-    public float dashSpeed = 150f;
+    public float dashStrength = 30f;
     public float dashCoolDown = 1f;
-    public float dashDistance = 0.15f;
+    public float dashTime = 0.50f;
     
     private float dashTimer = 0f;
     private bool isDashing = false;
-    private float CDTimer = 0f;
     
     private InputAction dashAction;
     private InputAction moveAction;
@@ -43,7 +42,7 @@ public class Dash : MonoBehaviour
             Debug.Log("Dashing");
             DashMovement(movement);
             dashTimer += Time.deltaTime;
-            if (dashTimer >= dashDistance)
+            if (dashTimer >= dashTime)
             {
                 isDashing = false;
                 dashTimer = 0f; // Reset the timer after dashing
@@ -53,7 +52,7 @@ public class Dash : MonoBehaviour
 
     void DashMovement(Vector3 movement)
     {
-        Vector3 dashDirection = movement * (dashSpeed * Time.deltaTime); // Adjust the dash distance as needed
+        Vector3 dashDirection = movement * (dashStrength * Time.deltaTime); // Adjust the dash distance as needed
         transform.position += dashDirection;
     }
 }
