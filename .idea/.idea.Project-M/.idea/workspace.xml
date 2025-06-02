@@ -6,7 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="7de25b99-6c9e-4e17-946b-df12028cde52" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Project-M/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project-M/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dash.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dash.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MeleeAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MeleeAttack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpriteCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpriteCamera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpriteShadow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpriteShadow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpriteShadow.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpriteShadow.shader.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +53,8 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;new-player-movement&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Fixing-and-Cleanup&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -110,6 +118,8 @@
       <updated>1737708512625</updated>
       <workItem from="1748071379095" duration="6507000" />
       <workItem from="1748520040229" duration="4643000" />
+      <workItem from="1748852343007" duration="2878000" />
+      <workItem from="1748862088106" duration="465000" />
     </task>
     <servers />
   </component>

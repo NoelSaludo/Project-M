@@ -5,6 +5,11 @@ public class SpriteCamera : MonoBehaviour
     [SerializeField]
     public Camera camera;
 
+    void Start()
+    {
+        camera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
+    }
+
     private void LateUpdate()
     {
         Vector3 cameraPos = camera.transform.position;
