@@ -26,7 +26,9 @@ public class MeleeAttack : MonoBehaviour
         {
             Debug.Log("isAttacking");
             _isAttacking = true;
+            _timer = 0; 
             _attackBox.SetActive(_isAttacking);
+            
         }
 
         if (_isAttacking) {
